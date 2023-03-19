@@ -1,0 +1,134 @@
+.welcomeHelloWorld {
+    position: absolute;
+    z-index: 20;
+    top: 320px;
+    left: 300px;
+    font-size: 60px;
+    color: white;
+    /* font-family: "Lucida Console", Courier, monospace; */
+    font-family: cursive;
+}
+
+.welcomeQuoteEng {
+    position: absolute;
+    z-index: 20;
+    top: 400px;
+    left: 310px;
+    color: white;
+    font-family: cursive;
+}
+
+/* @keyframes blink-effect {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink {
+    animation: blink-effect 1s step-end infinite;
+} */
+
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+.welcomeQuoteKor {
+    text-align: right;
+    z-index: 20;
+    position: absolute;
+    top: 670px;
+    left: 500px;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    font-family: 'Jeju Myeongjo', serif;
+}
+
+/* (image) tree */
+.layer1 {
+    position: absolute;
+    z-index: 1;
+    width: 950px;
+    object-fit: contain;
+    top: -250px;
+    right: 60px;
+}
+
+/* (image) fox in the box */
+.layer2 {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    object-fit: contain;
+    top: 500px;
+    left: 80px;
+    transform: rotate(8deg);
+}
+
+/* box42, white logo */
+.layer3 {
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+    object-fit: contain;
+    top: 240px;
+    left: 290px;
+}
+
+/* coalition box */
+.coalition {
+    position: absolute;
+    width: 380px;
+    height: 200px;
+    top: 330px;
+    left: 305px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 10px;
+    /* outline: 4px solid #00ff7f; */
+}
+
+/* coalition wording : gun gon gam lee*/
+.item1 {
+    padding-top: 10px;
+    padding-left: 60px;
+    border: 10px;
+    grid-column: 1 / 2;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+}
+
+.item2 {
+    padding-left: 10px;
+    grid-column: 2 / 3;
+}
+
+/* coalition logo : gun gon gam lee*/
+.logo {
+    position: absolute;
+    left: 585px;
+    top: 430px;
+    width: 100px;
+
+    /* object-fit: contain;
+    z-index: 10; */
+}
+
+.myCoalition {
+    position: absolute;
+    left: 530px;
+    top: 470px;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+
+.coalitionInsideBoxMain{
+    position: absolute;
+    width: 380px;
+    height: 200px;
+    top: 330px;
+    left: 305px;
+}
