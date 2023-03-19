@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/42BoxOnline/static/css/main.7753e45e.css",
-    "main.js": "/42BoxOnline/static/js/main.fa2babf9.js",
+    "main.js": "/42BoxOnline/static/js/main.0f9fb419.js",
     "index.html": "/42BoxOnline/index.html",
     "main.7753e45e.css.map": "/42BoxOnline/static/css/main.7753e45e.css.map",
-    "main.fa2babf9.js.map": "/42BoxOnline/static/js/main.fa2babf9.js.map"
+    "main.0f9fb419.js.map": "/42BoxOnline/static/js/main.0f9fb419.js.map"
   },
   "entrypoints": [
     "static/css/main.7753e45e.css",
-    "static/js/main.fa2babf9.js"
+    "static/js/main.0f9fb419.js"
   ]
 }
