@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/42BoxUPdate/static/css/main.7753e45e.css",
+    "main.js": "/42BoxUPdate/static/js/main.fa2babf9.js",
+    "index.html": "/42BoxUPdate/index.html",
+    "main.7753e45e.css.map": "/42BoxUPdate/static/css/main.7753e45e.css.map",
+    "main.fa2babf9.js.map": "/42BoxUPdate/static/js/main.fa2babf9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7753e45e.css",
+    "static/js/main.fa2babf9.js"
+  ]
+}
