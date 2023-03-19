@@ -23,7 +23,7 @@ function Home () {
         ).json();
         if (!json.login) {
             localStorage.removeItem('token');
-            navigate('/');
+            navigate('./');
         }
         setUserInfo(json);
     }
